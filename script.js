@@ -1,3 +1,15 @@
+//Resize website
+function resizeElements() {
+    const elementBoxes = document.querySelectorAll('.element-box');
+    elementBoxes.forEach(box => {
+        const containerWidth = box.parentElement.clientWidth;
+        box.style.width = `${containerWidth / 20}px`;
+        box.style.height = `${containerWidth / 20}px`;
+    });
+}
+
+window.addEventListener('resize', resizeElements);
+resizeElements();
 // Element data
 const data = {
 	elements: [
