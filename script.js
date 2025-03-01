@@ -1,4 +1,4 @@
-//Resize website
+/*//Resize website
 function resizeElements() {
     const elementBoxes = document.querySelectorAll('.element-box');
     elementBoxes.forEach(box => {
@@ -7,7 +7,7 @@ function resizeElements() {
         box.style.height = `${containerWidth / 20}px`;
     });
 }
-
+*/
 window.addEventListener('resize', resizeElements);
 resizeElements();
 // Element data
