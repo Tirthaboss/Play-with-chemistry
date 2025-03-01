@@ -435,6 +435,7 @@ body {
         width: 100%;
     }
 }
+/*
 
 @media (max-width: 480px) {
     .game-title {
@@ -444,7 +445,7 @@ body {
         width: 30px;
         height: 30px;
     }}
-
+*/
 @keyframes scaleIn {
 	from {
 		transform: scale(0.8);
